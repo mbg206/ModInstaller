@@ -31,7 +31,7 @@ goto done
 if not exist %appdata%/.minecraft/mods/ mkdir %appdata%/.minecraft/mods/
 mkdir oldMods
 cd oldMods
-move %appdata%/.minecraft/mods/* %cd%
+robocopy %appdata%/.minecraft/mods %cd% * /e /move
 cd %appdata%/.minecraft/mods/
 cls
 exit /b 0
