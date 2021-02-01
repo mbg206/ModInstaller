@@ -44,6 +44,7 @@ powershell -Command "Invoke-WebRequest https://media.forgecdn.net/files/3173/808
 powershell -Command "Invoke-WebRequest https://media.forgecdn.net/files/2577/418/rebindnarrator-1.0.jar -OutFile rebindnarrator-1.0.jar"
 powershell -Command "Invoke-WebRequest https://media.forgecdn.net/files/3015/79/AdvancedRocketry-1.12.2-1.7.0-232-universal.jar -OutFile AdvancedRocketry-1.12.2-1.7.0-232-universal.jar"
 powershell -Command "Invoke-WebRequest https://media.forgecdn.net/files/2954/91/Gems+and+Crystals-1.12.2-1.2.7.4.jar -OutFile Gems+and+Crystals-1.12.2-1.2.7.4.jar"
+powershell -Command "Invoke-WebRequest https://media.forgecdn.net/files/3169/324/anvilpatch-1.0.1.jar -OutFile anvilpatch-1.0.1.jar"
 goto done
 
 :win7
